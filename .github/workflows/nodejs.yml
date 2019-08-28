@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - 'releases/*'
+      
   pull_request:
     branches:
       - master
@@ -30,5 +31,7 @@ jobs:
         npm install
         npm run build --if-present
         npm test
+      run: |
+        echo Hello
       env:
         CI: true
