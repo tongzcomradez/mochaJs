@@ -1,6 +1,6 @@
 var expect    = require("chai").expect;
 var converter = require("../app/converter");
-
+console.log('t1')
 describe("Color Code Converter", function() {
     describe("RGB to Hex conversion", function() {
         it("converts the basic colors", function() {
