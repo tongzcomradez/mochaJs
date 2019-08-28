@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-      - release/*
-      
+      - 'release/*'
+
   pull_request:
     branches:
       - master
